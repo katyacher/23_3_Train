@@ -2,7 +2,7 @@
 #define TRAIN_SIZE 10
 #define MAX_AMOUNT 20
 
-#define TRAIN_INFO(array,func) {int n=0; for(auto& value: array) { (n) += (func(value)); }\
+#define TRAIN_INFO(array,func) {int n = 0; for(auto& value: array) { (n) += (func(value)); }\
                             std::cout << n << std::endl;}
 
 bool checkFull(int amount){
